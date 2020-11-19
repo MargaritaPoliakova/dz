@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 if (logA.equals("") || pasA.equals("")) {
                     rezult.setText("Вы ничего не ввели");
                 } else {
-                    if (logA.toString()== log.toString()&& pasA.toString()== pas.toString()) {
+                    if (logA== log&& pasA== pas) {
                         rezult1.setText("Верно");
                     } else rezult.setText("Вы ошиблись в логине или пароле");
                 }
